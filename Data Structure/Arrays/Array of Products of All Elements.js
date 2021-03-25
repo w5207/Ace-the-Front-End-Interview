@@ -13,6 +13,7 @@
 // Solution #1: Brute Force
 function findProduct(arr) {
   let result = [];
+
   for (let i = 0; i < arr.length; i++) {
     let product = 1;
     for (let j = 0; j < arr.length; j++) {
@@ -22,6 +23,7 @@ function findProduct(arr) {
     }
     result.push(product);
   }
+
   return result;
 }
 // This algorithm is in O(n^2) because the array is iterated over n+n(n+1)/2n+n(n+1)/2 times.
@@ -29,11 +31,12 @@ function findProduct(arr) {
 // Solution #2: Optimizing the number of multiplications
 function findProduct(arr) {
   let temp = 1, result = [];
+  // Traverse the arr and store the product of all the numbers to the left side of the current element in result[i].
   for (let i = 0; i < arr.length; i++) {
     result[i] = temp;
     temp *= arr[i];
   }
-
+  // Traverse the arr from the end and multiply the product of all the numbers to the right side of the current element with result[i].
   temp = 1;
   for (let i = arr.length - 1; i >= 0; i--) {
     result[i] *= temp;
