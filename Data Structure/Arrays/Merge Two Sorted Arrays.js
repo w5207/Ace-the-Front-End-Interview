@@ -2,6 +2,9 @@
 // Implement a function that merges two sorted arrays into another sorted array. Name it mergeArrays(arr1, arr2).
 
 // Input:
+// Problem Statement:
+// Implement a function that merges two sorted arrays into another sorted array. Name it mergeArrays(arr1, arr2).
+
 // Two sorted arrays.
 
 // Output:
