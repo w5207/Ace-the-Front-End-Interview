@@ -15,7 +15,7 @@
 // Sample Output:
 // arr = [24,12,8,6]
 
-// Solution #1: Brute Force
+// Solution #1: Brute Force/written by me
 function findProduct(arr) {
   let result = [];
 

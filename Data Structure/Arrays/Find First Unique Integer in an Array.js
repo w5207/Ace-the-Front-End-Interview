@@ -15,7 +15,7 @@
 // Sample Output:
 // 9
 
-// Solution #1: Brute Force
+// Solution #1: Brute Force/written by me
 function findFirstUnique(arr) {
   for (let i = 0; i < arr.length; i++) {
     let count = 0;
