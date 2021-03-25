@@ -15,21 +15,21 @@
 // Sample Output:
 // 9
 
-// // Solution #1: Brute Force
-// function findFirstUnique(arr) {
-//   for (let i = 0; i < arr.length; i++) {
-//     let count = 0;
-//     for (let j = 0; j < arr.length; j++) {
-//       if ((j != i) && (arr[j]!=arr[i])) {
-//         ++count;
-//       }
-//     }
-//     if (count == (arr.length - 1)) {
-//       return arr[i];
-//     }
-//   }
-//   return null;
-// }
+// Solution #1: Brute Force
+function findFirstUnique(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    let count = 0;
+    for (let j = 0; j < arr.length; j++) {
+      if ((j != i) && (arr[j]!=arr[i])) {
+        ++count;
+      }
+    }
+    if (count == (arr.length - 1)) {
+      return arr[i];
+    }
+  }
+  return null;
+}
 
 // The time complexity of this solution is O(n^2) since the entire array is iterated for each element →n×n.
 
