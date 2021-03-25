@@ -1,9 +1,7 @@
 // Problem Statement:
 // In this problem, you have to implement the findSum(arr, value) function, which takes an array arr, a number and value as input and returns an array of two numbers that add up to value.
 
-const { flattenDiagnosticMessageText } = require("typescript")
-
-// Note: In case there is more than one pair in the array containing numbers that add up to value, you are required to return only one such pair. If no such pair found then simply return false.
+// Note: In case there is more than one pair in the array containing numbers that add  up to value, you arerequired to return only one such pair. If no such pair found then simply return false.
 
 // Input:
 // An array and a number value
