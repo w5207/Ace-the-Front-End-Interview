@@ -37,6 +37,5 @@ function findSum(arr, value) {
 
 // As the array is always iterated once, the time complexity for this algorithm will be O(n).
 
-
-console.log(findSum([1, 2, 4], 5))
-console.log(findSum([1, 2, 3, 4], 10))
+// console.log(findSum([1, 2, 4], 5))
+// console.log(findSum([1, 2, 3, 4], 10))
