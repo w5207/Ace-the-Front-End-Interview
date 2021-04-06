@@ -1,16 +1,16 @@
 /*
 What’s the notable difference between the Function.call and Function.apply methods?
 
-A. call requires an array as its second argument whereas apply requires the parameters to be listed explicitly
+A) call requires an array as its second argument whereas apply requires the parameters to be listed explicitly
 Incorrect
 
-B. apply requires an array as its second argument whereas call requires the parameters to be listed explicitly
+B) apply requires an array as its second argument whereas call requires the parameters to be listed explicitly
 Correct
 
-C. call can only be called on other functions whereas apply cannot
+C) call can only be called on other functions whereas apply cannot
 Incorrect
 
-D. apply can only be called on other functions whereas call cannot
+D) apply can only be called on other functions whereas call cannot
 Incorrect
 */
 
@@ -58,16 +58,16 @@ Both call and apply can only be called on other functions; hence, both Options C
 /*
 What does Function.prototype.bind do?
 
-A. Creates a new function from an existing function
+A) Creates a new function from an existing function
 Correct
 
-B. Invokes a function immediately
+B) Invokes a function immediately
 Incorrect
 
-C. Changes the value of this in a new function created from an existing function
+C) Changes the value of this in a new function created from an existing function
 Correct
 
-D. Invokes a function later with a certain context
+D) Invokes a function later with a certain context
 Correct
 */
 

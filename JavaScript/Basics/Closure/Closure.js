@@ -9,15 +9,15 @@ Ture.
 /*
 Which of the following are common uses of closure?
 
-A. For Object Data Privacy
+A) For Object Data Privacy
 
-B. In Event Handlers
+B) In Event Handlers
 
-C. In Callback Functions
+C) In Callback Functions
 
-D. Currying
+D) Currying
 
-E. All of the above
+E) All of the above
 */
 
 // In JavaScript, closures are used to enable data privacy. 

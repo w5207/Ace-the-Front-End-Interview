@@ -19,21 +19,21 @@ const multiplyXY = (x,y) => x * y
 /*
 How does the arrow function differ from other functions?
 
-A. Can be used as a constructor
+A) Can be used as a constructor
 Incorrect. 
 An arrow function does not have its own new.target property so it cannot be used as a constructor function. 
 It cannot be called by new as there is no internal method [[Construct]] that allows it. 
 They don’t have any prototype property either.
 
-B. Implicitly returns values
+B) Implicitly returns values
 Correct. 
 Arrow functions implicitly return values; hence, the use of the return keyword can also be avoided.
 
-C. Is anonymous
+C) Is anonymous
 Correct. 
 There is no need for a name or the function keyword in an arrow function.
 
-D. Inherits the value of this from its enclosing scope
+D) Inherits the value of this from its enclosing scope
 Correct. 
 Arrow functions bind this lexically; meaning since they don’t have their own context in which they execute, 
 this gets inherited from the parent function. Hence, they don’t have their own this value.
@@ -42,21 +42,21 @@ this gets inherited from the parent function. Hence, they don’t have their own
 /*
 Which of the following are an arrow function’s uses cases?
 
-A. Dynamic binding of this
+A) Dynamic binding of this
 Incorrect. 
 Arrow functions bind the context statically hence, they should not be used if this is bound dynamically.
 
-B. Managing asynchronous code
+B) Managing asynchronous code
 Correct. 
 Using arrow functions in codes using promises or asynchronous callbacks makes the code easier to read and more concise. 
 This is because such codes tend to have a lot of function and return keywords, and with promises, these function expressions can be used for chaining too. 
 Hence, using arrow functions, the code is simplified.
 
-C. Creating methods on an object
+C) Creating methods on an object
 Incorrect. 
 Arrow functions should not be used to create object methods since they would create problems if you attempt to subclass/use this object as a prototype.
 
-D. Array manipulation
+D) Array manipulation
 Correct. 
 One of the common operations you might need to perform on an array is to map or reduce them. 
 Doing this using arrow functions makes the code more concise and easier to read.
