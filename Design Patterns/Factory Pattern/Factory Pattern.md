@@ -6,7 +6,8 @@ It does not use the new keyword directly to instantiate objects.
 This means it does not explicitly require the use of a constructor to create objects. 
 Instead, it provides a generic interface that delegates the object creation responsibility to the corresponding subclass.
 
-```
+# Example
+```javascript
 class IceCreamFactory {
   constructor() {
     this.createIcecream = function (flavor) {
