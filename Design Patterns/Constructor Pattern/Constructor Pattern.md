@@ -1,4 +1,4 @@
-# What is the constructor pattern
+# What is the constructor pattern?
 As a JavaScript developer, you may have encountered “constructors” at some point.
 These are special functions that initialize objects with specific properties and methods.
 The “constructor pattern”, as the name defines, is a class-based pattern that uses the constructors present in the class to create specific types of objects.
@@ -37,7 +37,7 @@ An object created from Human using the new keyword will contain all the properti
 ```javascript
 var person = new Human("Elle", "23", "Engineer");
 ```
-![Constructor Pattern](Pictures/C1.png)
+![Constructor Pattern](1.png)
 
 # When to use the constructor pattern?
 You can use it when you want to create multiple instances of the same template, since the instances can share methods but can still be different. 

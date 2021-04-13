@@ -69,7 +69,7 @@ Its constructor has a function createIcecream that accepts the parameter flavor.
 Depending on the flavor, it instantiates an object of the corresponding class. 
 For example, if the flavor is chocolate, it instantiates an object of the Chocolate class. 
 It does the same if the flavor is mint or strawberry.
-![Factory Pattern](Pictures/F1.png)
+![Factory Pattern](1.png)
 
 # When to use the factory pattern?
 1. When the type of objects required cannot be anticipated beforehand
