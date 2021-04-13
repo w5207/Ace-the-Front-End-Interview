@@ -1,0 +1,54 @@
+<body id="body" type="text">
+  <input id="input" type="text" value="Hello">
+  <script>
+    console.log(input.type); 
+    console.log(body.type); 
+  </script>
+</body>
+
+<!-- 
+What will be the output of the code above (lines 4-5)? 
+text
+undefined 
+-->
+
+<!-- Explanation:
+Here, type is not a standard attribute of the body tag, whereas, id, type, and value are all standard attributes of the input tag.
+Hence, body.type will return undefined. -->
+
+<!-- 
+Which of the following are true about DOM properties?
+A) DOM properties may not always be strings
+Correct
+
+B) DOM property values can never be changed
+Incorrect
+
+C) Changing a DOM property always changes its corresponding attribute
+Incorrect
+
+D) .value property of the DOM object provides you with the property value
+Correct
+-->
+
+<!-- 
+Option A: 
+Correct. 
+Majority of the DOM properties such as input.type, input.value, and body.id are of string type; 
+however, there are some properties that aren’t, such as the input.checked property. 
+input.checked is a boolean value that returns true if the checkbox is checked and false otherwise.
+
+Option B: 
+Incorrect. 
+DOM properties can be modified; it is the HTML attributes that can never be changed.
+
+Option C: 
+Incorrect. 
+Changing the value of an attribute always changes its corresponding DOM property's value; 
+however, vice versa is not always true. 
+For example, changing input.value does not change the value of input.getAttribute('value').
+
+Option D: 
+Correct. 
+You can access the value of a DOM property using .value with the following syntax: attribute.value. 
+-->
