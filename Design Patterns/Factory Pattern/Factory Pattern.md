@@ -63,6 +63,14 @@ console.log(mint.message());
 console.log(strawberry.message());
 ```
 
+# Explanation
+In the example above, we created a factory called IceCreamFactory. 
+Its constructor has a function createIcecream that accepts the parameter flavor. 
+Depending on the flavor, it instantiates an object of the corresponding class. 
+For example, if the flavor is chocolate, it instantiates an object of the Chocolate class. 
+It does the same if the flavor is mint or strawberry.
+![Factory Pattern](Pictures/F1.png)
+
 # When to use the factory pattern?
 1. When the type of objects required cannot be anticipated beforehand
 2. When multiple objects that share similar characteristics need to be created
