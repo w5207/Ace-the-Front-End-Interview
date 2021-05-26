@@ -1,1 +1,1 @@
-# LeetCodeJS
+# AlgorithmJS
